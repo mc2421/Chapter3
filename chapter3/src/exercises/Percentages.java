@@ -19,9 +19,14 @@ public class Percentages {
 		double firstNumber;
 		double secondNumber;
 		
-		firstNumber
-		secondNumber
+		firstNumber = x / y * 100;
+		secondNumber = y / x * 100;
+		System.out.println(String.format("%.0f%%", firstNumber));
+		System.out.println(String.format("%.0f%%", secondNumber));
 		
+		
+		System.out.println( num1 + " is " + firstNumber + "percent of " + num2);
+		System.out.println( num2 + " is " + secondNumber + "percent of " + num1);
 	}
 
 }
